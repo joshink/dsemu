@@ -116,7 +116,7 @@ class Emulator:
                 "emulators",
                 "datastore",
                 "start",
-                "--consistency=1.0",
+                "--use-firestore-in-datastore-mode",
                 "--no-store-on-disk",
                 f"--host-port={emulator_host}",
                 f"--project={self._project}",
